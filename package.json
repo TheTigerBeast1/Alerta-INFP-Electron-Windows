@@ -6,9 +6,9 @@
   "author": "Local",
   "license": "MIT",
   "scripts": {
-  "start": "electron .",
-  "dist": "electron-builder --win --publish never"
-},
+    "start": "electron .",
+    "dist": "electron-builder --win --publish never"
+  },
   "devDependencies": {
     "electron": "^37.2.6",
     "electron-builder": "^26.0.12"
@@ -25,6 +25,7 @@
       "target": [
         "nsis"
       ],
+      "icon": "assets/icon.ico",
       "artifactName": "INFP-Earthquake-Monitor-${version}-Setup.${ext}"
     },
     "nsis": {

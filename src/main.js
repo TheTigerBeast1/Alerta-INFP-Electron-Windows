@@ -5,6 +5,9 @@ const fs = require("fs");
 const INFP_URL = "https://alerta.infp.ro/";
 const POLL_MS = 30_000;
 
+// Identify the application correctly to Windows (notifications, tray, shortcuts).
+app.setAppUserModelId("ro.infp.earthquake-monitor");
+
 let mainWindow = null;
 let siteWindow = null;
 let tray = null;
@@ -298,7 +301,14 @@ function stopMonitoring() {
 }
 
 function createTray() {
-  tray = new Tray(nativeImage.createEmpty());
+  const trayIconPath = path.join(__dirname, "..", "assets", "tray.ico");
+  const trayIcon = nativeImage.createFromPath(trayIconPath);
+
+  if (trayIcon.isEmpty()) {
+    console.error("Could not load tray icon:", trayIconPath);
+  }
+
+  tray = new Tray(trayIcon);
   tray.setToolTip("INFP Earthquake Monitor");
 
   const menu = Menu.buildFromTemplate([
