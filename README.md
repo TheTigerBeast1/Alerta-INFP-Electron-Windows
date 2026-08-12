@@ -10,7 +10,7 @@
 > **Acest sistem este în faza de testare și nu garantează notificări perfecte.
 Funcționarea depinde de conexiunea la internet și de disponibilitatea rețelelor de senzori.
 INCDFP nu își asumă responsabilitatea pentru orice eroare de notificare sau întârzieri în livrare.
-Dezvoltatorul acestei aplicații nu își asumă responsabilitatea pentru problemele ce țin de INFP.
+Dezvoltatorul acestei aplicații nu își asumă responsabilitatea pentru problemele ce țin de INFP.**
 
 ---
 
