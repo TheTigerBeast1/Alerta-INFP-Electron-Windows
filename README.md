@@ -6,12 +6,11 @@
 **Aplicație Windows pentru acces rapid la Sistemul Alerta EWS al Institutului Național de Cercetare-Dezvoltare pentru Fizica Pământului (INFP / INCDFP).**
 
 > [!IMPORTANT]
-> **INFP Earthquake Monitor este o aplicație neoficială**, realizată pentru Windows, care oferă acces într-o fereastră dedicată la pagina web publică a Sistemului Alerta EWS. Aplicația nu este un produs oficial al INFP/INCDFP și nu modifică sistemul de alertare al acestora.
+> **INFP Earthquake Monitor este o aplicație neoficială**, realizată pentru Windows, care oferă acces într-o fereastră dedicată la pagina web publică a Sistemului Alerta EWS. Aplicația nu este un produs oficial al INFP/INCDFP și nu modifică sistemul de alertare al acestora. Dezvoltatorul acestei aplicații nu își asumă responsabilitatea pentru eventualele probleme ce țin strict de INFP.
 
-> **Disclaimer Oficial INFP:Acest sistem este în faza de testare și nu garantează notificări perfecte.
+> **Disclaimer Oficial INFP: Acest sistem este în faza de testare și nu garantează notificări perfecte.
 Funcționarea depinde de conexiunea la internet și de disponibilitatea rețelelor de senzori.
-INCDFP nu își asumă responsabilitatea pentru orice eroare de notificare sau întârzieri în livrare.
-Dezvoltatorul acestei aplicații nu își asumă responsabilitatea pentru problemele ce țin de INFP.**
+INCDFP nu își asumă responsabilitatea pentru orice eroare de notificare sau întârzieri în livrare.**
 
 ---
 
