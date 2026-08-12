@@ -1,7 +1,7 @@
 {
   "name": "infp-earthquake-monitor",
   "version": "1.0.0",
-  "description": "Monitorizare notificari pentru Sistemul Alerta EWS - INCDFP",
+  "description": "Aplicație Windows pentru Sistemul Alerta EWS - INCDFP",
   "main": "src/main.js",
   "author": "Local",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "appId": "ro.infp.earthquake-monitor",
     "productName": "INFP Earthquake Monitor",
     "files": [
-      "src/**/*",
+      "src/main.js",
       "assets/**/*",
       "package.json"
     ],
