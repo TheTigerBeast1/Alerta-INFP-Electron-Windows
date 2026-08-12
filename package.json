@@ -1,0 +1,41 @@
+{
+  "name": "infp-earthquake-monitor",
+  "version": "1.0.0",
+  "description": "Monitorizare notificari pentru Sistemul Alerta EWS - INCDFP",
+  "main": "src/main.js",
+  "author": "Local",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "ro.infp.earthquake-monitor",
+    "productName": "INFP Earthquake Monitor",
+    "files": [
+      "src/**/*",
+      "assets/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "artifactName": "INFP-Earthquake-Monitor-${version}-Setup.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "compression": "maximum",
+    "directories": {
+      "output": "dist"
+    }
+  }
+}
