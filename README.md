@@ -1,4 +1,7 @@
+# INFP Earthquake Monitor
+
 ![INFP Earthquake Monitor](/main.jpg)
+
 
 **Aplicație Windows pentru acces rapid la Sistemul Alerta EWS al Institutului Național de Cercetare-Dezvoltare pentru Fizica Pământului (INFP / INCDFP).**
 
