@@ -6,9 +6,9 @@
   "author": "Local",
   "license": "MIT",
   "scripts": {
-    "start": "electron .",
-    "dist": "electron-builder --win"
-  },
+  "start": "electron .",
+  "dist": "electron-builder --win --publish never"
+},
   "devDependencies": {
     "electron": "^37.2.6",
     "electron-builder": "^26.0.12"
